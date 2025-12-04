@@ -6,9 +6,10 @@
         xmlns:local="clr-namespace:practica_integradora"
         mc:Ignorable="d"
         Title="menu_principal" Height="650" Width="1000"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        >
     <Grid>
-
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
@@ -41,7 +42,7 @@
                 Foreground="Blue" />
             <TextBlock Text="O" HorizontalAlignment="Center"/>
             <Button x:Name="inicio_sesion" Content="iniciar sesion" Background="Transparent"
-    Foreground="Blue" />
+            Foreground="Blue" />
 
         </StackPanel>
 
