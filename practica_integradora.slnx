@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="API_practica_integradora/API_practica_integradora.csproj" />
+  <Project Path="DB/DB.csproj" />
   <Project Path="practica_integradora/practica_integradora.csproj" />
 </Solution>
