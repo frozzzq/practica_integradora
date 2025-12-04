@@ -30,5 +30,15 @@ namespace practica_integradora
             V_menu_principal.Show();
             this.Close();
         }
+
+        private void btnMinimizar_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void btnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
