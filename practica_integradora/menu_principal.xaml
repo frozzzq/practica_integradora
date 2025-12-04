@@ -69,7 +69,7 @@
         <StackPanel  Orientation ="Horizontal" Grid.Row="1" >
             <StackPanel Orientation="Vertical" Grid.Column="0"  Width="150" >
 
-                <RadioButton x:Name ="inicio" Content="Inicio" FontWeight="Bold" FontSize="13" Foreground="#2F4157" Margin="1,0,0,0" />
+                <RadioButton x:Name ="inicio" Content="Inicio" FontWeight="Bold" FontSize="13" Foreground="#2F4157" Margin="1,0,0,0" Checked="inicio_Checked" />
 
                 <RadioButton x:Name ="ABCcliente" Content="Registrar cliente" FontWeight="Bold" FontSize="13" Foreground="#2F4157" Margin="1,0,0,0"/>
 

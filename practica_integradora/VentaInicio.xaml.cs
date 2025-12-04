@@ -10,26 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace practica_integradora
 {
     /// <summary>
-    /// Lógica de interacción para menu_principal.xaml
+    /// Lógica de interacción para VentaInicio.xaml
     /// </summary>
-    public partial class menu_principal : Window
+    public partial class VentaInicio : Page
     {
-        public menu_principal()
+        public VentaInicio()
         {
             InitializeComponent();
-        }
-
-        private void inicio_Checked(object sender, RoutedEventArgs e)
-        {
-            if (inicio.IsChecked == true)
-            {
-                registrar_cliente.Navigate(new VentaInicio());
-            }
         }
     }
 }
